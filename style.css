@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: burlywood;
+    padding:2rem;
+}
+.container{
+    height: 90vh;
+    width: 80vw;
+    background-color: beige;
+    display: flex;
+}
+.leftWrap{
+    width: 40%;
+    background-color: rgba(255, 127, 80, 0.322);
+}
+.rightWrap{
+    background-color: rgba(0, 100, 0, 0.432);
+}
+.navDiv>ul{
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+}
