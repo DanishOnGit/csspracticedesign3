@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;0,700;0,900;1,800&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-color: burlywood;
@@ -13,16 +14,185 @@ body{
     width: 80vw;
     background-color: beige;
     display: flex;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 .leftWrap{
-    width: 40%;
-    background-color: rgba(255, 127, 80, 0.322);
+    width: 35%;
+    /* background-color: rgba(255, 127, 80, 0.322); */
+}
+.middleWrap{
+    position: relative;
+    /* background-color: rgba(205, 92, 92, 0.507); */
+    width: 32.5%;
 }
 .rightWrap{
-    background-color: rgba(0, 100, 0, 0.432);
+    position: relative;
+    /* background-color: rgba(0, 100, 0, 0.432); */
+    width: 32.5%;
 }
-.navDiv>ul{
+h3{
+    /* background-color: rgba(178, 34, 34, 0.37); */
+    display: inline;
+    font-weight: 900;
+}
+.navDiv{
+    /* background-color: rgba(71, 61, 139, 0.438); */
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ul{
     list-style: none;
-    padding-inline-start: 0;
+    display: flex;
+    font-size: 0.6rem;
+    /* align-items: baseline; */
+    /* justify-content: baseline; */
+    justify-content: space-evenly;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    /* background-color: rgba(34, 139, 34, 0.479); */
+
+}
+ul>li{
+    justify-content: space-evenly;
+    padding: 0 1rem;
+}
+/* left bottom text */
+.leftText{
+    width: 50%;
+    /* background-color: rgba(218, 165, 32, 0.438); */
+    margin-top: 72.5%;
+    line-height: 1.4
+}
+.thinP{
+    font-weight: 500;
+    color: rgba(128, 128, 128, 0.795);
+}
+button{
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 60, 255);
+    margin-top: 2rem;
+    color:rgb(0, 60, 255); 
+    font-weight: 900;
+}
+
+.cream{
+    position: absolute;
+    top:32%;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: rgb(235, 201, 158);
+}
+.orange{
+    position: absolute;
+    height: 170px;
+    width: 340px;
+    left: 23.5%;
+    bottom: 16.5%;
+    transform: rotate(-90deg);
+    background-color: rgb(224, 70, 24);
+    border-radius: 165px 165px 0 0 ;
+
+}
+.pink{
+    position: absolute;
+    height: 180px;
+    width: 160px;
+    background-color:pink;
+    border-radius: 160px 0 0 0;
+    bottom: 0
+
+}
+.duotone{
+    position: absolute;
+    height: 168px;
+    width: 170px;
+    border-radius: 160px 0 0 0;
+    background-color: rgb(44, 185, 228);
+   
+}
+
+.duotone1{
+    position: absolute;
+    left: 50%;
+    height: 168px;
+    width: 168px;
+    transform: rotate(180deg);
+    border-radius: 160px 0 0 0;
+    background-color:rgb(8, 7, 87);
+}
+.duotonecopy{
+    position: absolute;
+    height: 168px;
+    width: 170px;
+    border-radius: 160px 0 0 0;
+    transform: rotate(-90deg);
+    bottom: 32.7%;
+    background-color: rgb(44, 185, 228);
+
+}
+.cream1{
+    position: absolute;
+    
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    background-color: rgb(235, 201, 158);
+}
+.pink1{
+    position: absolute;
+    height: 160px;
+    width: 150px;
+    transform: rotate(-90deg);
+    background-color:pink;
+    border-radius: 160px 0 0 0;
+    top:-4px;
+    right: 5px;
+
+}
+.green{
+    position: absolute;
+    height: 167px;
+    width: 167px;
+    border-radius: 50%;
+    background-color:rgb(8, 7, 87);
+    bottom: 0;
+    left: -1px;
+}
+.duotonecopy1{
+    position: absolute;
+    height: 180px;
+    width: 175px;
+    border-radius: 160px 0 0 0;
+    background-color: darkgreen;
+    top: 34.45%;
+    right: 0;
+
+}
+.duotonecopy2{
+    position: absolute;
+    height: 175px;
+    width: 162px;
+    transform: rotate(-90deg);
+    border-radius: 160px 0 0 0;
+    background-color:rgb(235, 201, 158);
+    bottom:-4px;
+    right: 6.5px;
+
+}
+.bluecopy{
+    position: absolute;
+    height: 155px;
+    width: 143px;
+    transform: rotate(-90deg);
+    background-color:rgb(44, 185, 228);
+    border-radius: 180px 0 0 0;
+    top:34%;
+    left: 8px;
+
 }
